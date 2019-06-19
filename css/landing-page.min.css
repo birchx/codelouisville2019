@@ -1,0 +1,175 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.5 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+header.masthead h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+  box-shadow: 0 5px 5px 0 #adb5bd;
+}
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+@circle-size: 100px;
+@outside-circle-size: @circle-size + 10px;
+@outside-circle-border: 2px;
+@outside-circle-margin: ((@outside-circle-size / 2) + @outside-circle-border) * -1;
+
+.circlebutton{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Segoe UI";
+  letter-spacing: 1px;
+
+  &:before{
+    border-radius: @circle-size;
+    border: @outside-circle-border solid #468cdc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15), 0 0 15px rgba(0, 255, 204, 0.15) inset;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: @outside-circle-size;
+    width: @outside-circle-size;
+    margin-left: @outside-circle-margin;
+    margin-top: @outside-circle-margin;    
+    opacity: 1;
+    transform: scale(1);
+    transition: all 300ms;
+  }
+  
+  &:hover:before{
+    transform: scale(1.05);
+  }
+  
+  &.circle{
+    background: #23466e;
+    border: none;
+    border-radius: 900px;
+    color: #e4ecfa;
+    cursor: pointer;
+    display: block;
+    width: @circle-size;
+    height: @circle-size;  
+    line-height: @circle-size;  
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    transition: 0.5s;
+    
+    &:hover {
+      background: #3e70aa;
+      padding: -2px;
+    }
+  }
+}
+
+.circlecontainer{
+  background-color: rgb(5, 40, 60);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: auto;
+}
