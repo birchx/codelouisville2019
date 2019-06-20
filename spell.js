@@ -1,11 +1,21 @@
 
 document.querySelector('.classname')
-document.querySelector('.new-spell')
+document.querySelector('.new-quote')
 
-const newSpellButton = document.querySelector('.new-spell');
+const endpoint = 'https://lyricsovh.docs.apiary.io/#';
+const newQuoteButton = document.querySelector('.new-quote');
 
-newSpellButton.addEventListener('click', getSpell);
+newQuoteButton.addEventListener('click', getQuote);
 
-function getSpell() {
-    console.log('newSpellButton was clicked');
-}
+function getQuote() {
+    fetch(endpoint)
+    .then(function (response){
+        return response.json();
+    })
+    .then(function (data){
+        console.log(data);
+    })
+    .catch(function (){
+        console.log('An error occurred');
+    });
+  }
