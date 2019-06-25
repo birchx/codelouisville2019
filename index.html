@@ -43,17 +43,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Conjure a poem from the spirt of your name</h1>
+          <h1 class="mb-5">Conjure a poem</h1>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-              <div class="col-12 col-md-9 mb-2 mb-md-0 mx-auto">
-                <input type="text" class="form-control form-control-lg" placeholder="Enter given name">
-              </div>
-              <div class="col-12 col-md-3 p-2 mx-auto">
-                <button type="button" class="new-quote button btn btn-block btn-lg btn-dark">seal your fate</button>
-              </div>
-          </form>
+        <div id="controls-container" class="col-12 col-md-3 p-2 mx-auto">
+          <button type="button" id="requestButton" class="controls button btn btn-block btn-lg btn-dark">seal your fate</button>
+        </div>
+        <div class="col-12 col-md-9 mb-4 mb-md-0 mx-auto" id="quoteBlock">
+          <p id="quote"></p>
+          <p id="author"></p>
+        </div>
+ 
         </div>
       </div>
     </div>
