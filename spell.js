@@ -269,24 +269,6 @@ var quotes = [{
     author: "George Carlin",
     quote: "Would a fly without wings be called a walk?"
   }, {
-    author: "Louis C.K.",
-    quote: '"I\'m bored" is a useless thing to say. I mean, you live in a great, big, vast world that you\'ve seen none percent of. Even the inside of your own mind is endless; it goes on forever, inwardly, do you understand? The fact that you\'re alive is amazing, so you don\'t get to say "I\'m bored".'
-  }, {
-    author: "Louis C.K.",
-    quote: "The only time you look in your neighbor's bowl is to make sure that they have enough. You don't look in your neighbor's bowl to see if you have as much as them."
-  }, {
-    author: "Louis C.K.",
-    quote: 'Self-love is a good thing but self-awareness is more important. You need to once in a while go "Uh, I\'m kind of an asshole."'
-  }, {
-    author: "Louis C.K.",
-    quote: "You know what, it's not your life, it's life. Life is bigger than you, if you can imagine that. Life isn't something that you possess, it's something that you take part in and witness."
-  }, {
-    author: "Louis C.K.",
-    quote: '"What happens after you die?" Lot\'s of things happen after you die - they just don\'t involve you.'
-  }, {
-    author: "Louis C.K.",
-    quote: "I've been having a lot of trouble sleeping as we all should. I dunno. You don't live that long. It doesn't matter."
-  }, {
     author: "Bill Hicks",
     quote: "Watching television is like taking black spray paint to your third eye."
   }, {

@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
-
 body {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -17,9 +16,15 @@ h6 {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
+.noir{
+  background-color: #101010;
+}
+
+
 header.masthead {
   position: relative;
-  background-color: #343a40;
+  background-color: #101010;
   background: url(../img/109-crop.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -27,7 +32,7 @@ header.masthead {
 }
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #101010;
   height: 100%;
   width: 100%;
   top: 0;
@@ -88,7 +93,7 @@ header.masthead h1 {
 }
 .call-to-action {
   position: relative;
-  background-color: #343a40;
+  background-color: #101010;
   background: url(../img/bg-masthead.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
@@ -96,7 +101,7 @@ header.masthead h1 {
 }
 .call-to-action .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #101010;
   height: 100%;
   width: 100%;
   top: 0;
@@ -180,8 +185,7 @@ footer.footer {
   margin: 0 auto;
   overflow: auto;
   width: 100%;
-  min-height: 300px;
-  margin-bottom: 50px;
+  min-height: 200px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -208,5 +212,4 @@ footer.footer {
   position: absolute;
   left: 0;
   right:0;
-  bottom: 50px;
 }
