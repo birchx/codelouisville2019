@@ -15,8 +15,12 @@ h5,
 h6 {
   font-family: Lato, sans-serif;
   font-weight: 200;
+  color: slategray;
 }
-
+p{
+  color: whitesmoke;
+  text-align: left;
+}
 
 .navbar{
   font-family: Lato, sans-serif;}
@@ -92,8 +96,7 @@ header.masthead h1 {
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;
-  -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
-  box-shadow: 0 5px 5px 0 #adb5bd;
+ 
 }
 .call-to-action {
   position: relative;
