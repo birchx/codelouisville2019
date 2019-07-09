@@ -364,7 +364,6 @@ var quotes = [{
     skip_animation_button = document.querySelector("#skipAnimationButton"),
     quote_line = document.querySelector("#quote"),
     author_line = document.querySelector("#author"),
-    typing_sound = new Audio("https://s3.amazonaws.com/codepen-files/typing.wav"),
     chosen_quote_object,
     running = 0,
     interval,
@@ -378,10 +377,6 @@ var quotes = [{
     return true;
   };
   
-  typing_sound.addEventListener("ended", function() {
-    this.currentTime = 0;
-    this.play();
-  });
   
   requestButton.addEventListener("click", function() {
     if (running === 0) {
@@ -392,8 +387,6 @@ var quotes = [{
   });
   
   skip_animation_button.addEventListener("click", function() {
-    typing_sound.pause();
-    typing_sound.currentTime = 0;
     running = 0;
     index = 0;
     window.clearInterval(interval);
@@ -411,7 +404,7 @@ var quotes = [{
         return;
       }
       index = 0;
-      typing_sound.pause();
+  
       clearInterval(interval);
       running = 0;
       return;
@@ -421,7 +414,6 @@ var quotes = [{
   }
   
   function write_quote() {
-    typing_sound.play();
     running = 1;
     var q = quotes[Math.floor(Math.random() * quotes.length)],
       author = q.author.split(''),
