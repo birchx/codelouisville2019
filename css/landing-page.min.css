@@ -30,6 +30,55 @@ p{
   background-color: #101010;
 }
 
+/* form css */
+.contact-section {
+  text-align: center;
+  background: #101010;
+}
+
+.form-control.form-style {
+  display: block;
+  width: 100%;
+  height: 70px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid #fff;
+  border-radius: 0;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.form-control.focus-gold:focus {
+  border-color: #B6944C;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-group textarea {
+  border: 5px solid #fff;
+  border-radius: 0;
+  background: transparent;
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+
 
 header.masthead {
   position: relative;
