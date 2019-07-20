@@ -4,8 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+
+
 body {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lato, Calibri, sans-serif;
+  background-color: #101010;
 }
 h1,
 h2,
@@ -13,21 +16,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', Lato, sans-serif;
   font-weight: 200;
   color: slategray;
-  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: .2rem
 }
 p{
   color: whitesmoke;
-  text-align: left;
+}
+.left p{
+  color: whitesmoke;
 }
 
 .navbar{
-  font-family: Lato, sans-serif;}
-
-.noir{
-  background-color: #101010;
+  font-family: 'Montserrat', Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2rem
 }
 
 /* form css */
