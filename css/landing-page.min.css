@@ -10,6 +10,9 @@ body {
   font-family: Lato, Calibri, sans-serif;
   background-color: #101010;
 }
+a{
+  color: #72241E;
+}
 h1,
 h2,
 h3,
@@ -28,10 +31,14 @@ p{
 .left p{
   color: whitesmoke;
 }
+.btn{
+  background: slategray;
+}
 
 .navbar{
   font-family: 'Montserrat', Lato, sans-serif;
   text-transform: uppercase;
+  font-weight: 200;
   letter-spacing: .2rem
 }
 
@@ -59,7 +66,7 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   letter-spacing: 5px;
-  text-transform: uppercase;
+
 }
 
 .form-control.focus-gold:focus {
@@ -76,11 +83,8 @@ p{
   margin-top: 40px;
   padding-left: 30px;
   padding-top: 30px;
-
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  letter-spacing: 5px;
-  text-transform: uppercase;
 }
 
 
@@ -186,8 +190,8 @@ footer.footer {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 100;
-  font-family: "Segoe UI";
+  font-weight: 200;
+  font-family: 'Montserrat', Lato, sans-serif;
   letter-spacing: 1px;
 
   &:before{
@@ -275,3 +279,50 @@ footer.footer {
   left: 0;
   right:0;
 }
+.cbutton {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Montserrat', Lato, sans-serif;
+    letter-spacing: 1px;
+  }
+  .cbutton:before {
+    border-radius: 200px;
+    border: 2px solid #468cdc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15), 0 0 15px rgba(0, 255, 204, 0.15) inset;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 210px;
+    width: 210px;
+    margin-left: -87px;
+    margin-top: -87px;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 300ms;
+  }
+  .cbutton:hover:before {
+    transform: scale(1.05);
+  }
+  .cbutton.circle {
+    background: #23466e;
+    border: none;
+    border-radius: 900px;
+    color: #e4ecfa;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 200px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .cbutton.circle:hover {
+    background: #3e70aa;
+    padding: -2px;
+  }
