@@ -39,7 +39,8 @@ p{
   font-family: 'Montserrat', Lato, sans-serif;
   text-transform: uppercase;
   font-weight: 200;
-  letter-spacing: .2rem
+  letter-spacing: .2rem;
+  padding-bottom: 3px;
 }
 
 /* form css */
@@ -92,7 +93,7 @@ p{
 header.masthead {
   position: relative;
   background-color: #101010;
-  background: url(../img/109-crop.jpg) no-repeat center center;
+  background: url(../img/mouintains.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 6rem;
   padding-bottom: 6rem;
